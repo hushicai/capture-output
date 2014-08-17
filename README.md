@@ -6,9 +6,6 @@ capture-output
 基本用法：
 
 ```
-git clone git@github.com:hushicai/capture-output.git
-cd capture-output
-./bin/capture-output "ls"
+npm install capture-output
+capture-output "ls -l"
 ```
-
-自己写着玩，慎用，哈哈！
