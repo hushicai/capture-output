@@ -5,7 +5,7 @@ capture-output
 
 基本用法：
 
-```
+```bash
 npm install capture-output
 capture-output "ls -l"
 ```
