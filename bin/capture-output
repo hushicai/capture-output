@@ -1,5 +1,3 @@
-#! /usr/bin/env phantomjs
+#! /usr/bin/env node
 
-var system = require('system');
-
-require('../lib/cli').capture(system.args);
+require('../lib/cli').capture(process.argv);

@@ -11,8 +11,11 @@
     "shell"
   ],
   "bin": {
-      "capture-output": "./bin/capture-output"
+    "capture-output": "./bin/capture-output"
   },
   "author": "hushicai <bluthcy@gmail.com> (http://hushicai.com/)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webshot": "^0.15.2"
+  }
 }
