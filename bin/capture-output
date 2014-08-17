@@ -1,0 +1,5 @@
+#! /usr/bin/env phantomjs
+
+var system = require('system');
+
+require('../lib/cli').capture(system.args);
